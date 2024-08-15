@@ -1,0 +1,10 @@
+{
+  "home": {},
+  "posts": [{
+    "title": "Test Post",
+    "author": "William Woodhead",
+    "date": "2024-08-15",
+    "slug": "test-post",
+    "filename": "test.md"
+  }]
+}

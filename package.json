@@ -1,0 +1,26 @@
+{
+  "name": "williamwoodhead.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node build.js",
+    "serve": "http-server out -e html",
+    "start": "npm run build && npm run serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/william-woodhead/williamwoodhead.com.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/william-woodhead/williamwoodhead.com/issues"
+  },
+  "homepage": "https://github.com/william-woodhead/williamwoodhead.com#readme",
+  "dependencies": {
+    "http-server": "^14.1.1",
+    "marked": "^14.0.0"
+  }
+}
