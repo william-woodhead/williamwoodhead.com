@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-GB">
   <head>
-    <meta name="title" title="{{{ title }}}" >
+    <title>{{{ title }}}</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -11,10 +11,26 @@
       body {
         font-family: "Raleway", sans-serif;
         font-optical-sizing: auto;
+        background-color: #ffe6d1;
+        color: #483e30;
+        margin: 100px 20px;
+      }
+      container {
+        display: flex;
+        justify-content: center;
+        align-items: column;
+      }
+      content {
+        max-width: 600px;
+        width: 100%;
       }
     </style>
   </head>
   <body>
-    {{{ htmlPost }}}
+    <container>
+      <content>
+        {{{ htmlPost }}}
+      </content>
+    </container>
   </body>
 </html>
