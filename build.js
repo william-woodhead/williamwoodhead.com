@@ -10,9 +10,10 @@ const outputDir = `${__dirname}/out`;
 const sitemap = JSON.parse(fs.readFileSync(sitemapPath).toString());
 
 // Generate all posts
-if (!fs.existsSync(outputDir)){
-  fs.mkdirSync(outputDir);
+if (fs.existsSync(outputDir)){
+  fs.rmSync(outputDir, { recursive: true, force: true });
 }
+fs.mkdirSync(outputDir);
 
 for (index in sitemap.posts) {
   const post = sitemap.posts[index];
