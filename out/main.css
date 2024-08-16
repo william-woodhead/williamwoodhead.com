@@ -20,8 +20,10 @@ ul {
   padding: 0;
 }
 
-li {
+li.post {
   margin: 20px 0;
+  display: flex;
+  justify-content: space-between;
 }
 
 a {

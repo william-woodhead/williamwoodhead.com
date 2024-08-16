@@ -3,11 +3,11 @@
     "slug": "index.html"
   },
   "posts": [{
-    "title": "Test Post",
+    "title": "How to review an incident report",
     "author": "William Woodhead",
-    "date": "2024-08-15",
-    "slug": "test-post",
-    "filename": "test.md"
+    "date": "2024-08-16",
+    "slug": "review-incident-report",
+    "filename": "review-incident-report.md"
   }, {
     "title": "How to review a technical spec",
     "author": "William Woodhead",
