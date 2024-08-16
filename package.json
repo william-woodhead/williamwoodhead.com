@@ -22,5 +22,8 @@
   "dependencies": {
     "http-server": "^14.1.1",
     "marked": "^14.0.0"
+  },
+  "engines": {
+    "node": ">=22.0.0"
   }
 }

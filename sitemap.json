@@ -1,10 +1,18 @@
 {
-  "home": {},
+  "home": {
+    "slug": "index.html"
+  },
   "posts": [{
     "title": "Test Post",
     "author": "William Woodhead",
     "date": "2024-08-15",
-    "slug": "test-post.html",
+    "slug": "test-post",
     "filename": "test.md"
+  }, {
+    "title": "How to review a technical spec",
+    "author": "William Woodhead",
+    "date": "2024-08-17",
+    "slug": "review-tech-spec",
+    "filename": "review-tech-spec.md"
   }]
 }
